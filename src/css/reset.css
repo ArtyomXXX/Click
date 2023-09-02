@@ -1,0 +1,17 @@
+/* Указываем box sizing */
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* Убираем внешние отступы */
+body {
+  margin: 0;
+}
+
+button {
+  border: none;
+  outline: none;
+}
